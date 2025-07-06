@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <title>sun zenith</title>
+    </head>
+
+
+
+
+
+
+<body>
+ <div class="donghua">
+
+sun zenith
+
+
+
+    </div>
+
+
+    <div class="fornews" id="news">Not-Rolling News</div>
+
+ <button onclick="t1()" class="tabButton">直射点</button>
+        <button onclick="t2()" class="tabButton">记录与参考</button>
+        <button onclick="t3()" class="tabButton">示意图</button>
+        <button onclick="t4()" class="tabButton">网站</button>
+    <div id="tab1" class="box">
+        <div class="box2">
+            <br>
+             
+             <h3>目前太阳直射点位置大约在</h3>
+            <b class="onlyblack" id="realzen">正在计算…(请确保启用JS)</b><br><br>
+
+            <h3>目前太阳直射点已经南移米数为</h3>
+            <b class="colorful" id="zenith">正在计算…(请确保启用JS)</b><br><br>
+
+            <p>相当于南移了</p>
+            <b class="aswellas" id="comparison">正在计算…(请确保启用JS)</b><br><br>
+
+          
+             <h3>占北回归线到赤道百分比为</h3>
+            <b class="onlyblack" id="percent">正在计算…(请确保启用JS)</b><br><br>
+          
+             <h3>当前太阳直射点南移速度为</h3>
+            <b class="onlyblack" id="speed">正在计算…(请确保启用JS)</b><br><br>
+               
+             <h3>当前太阳直射点南移加速度为</h3>
+            <b class="onlyblack" id="acceleration">正在计算…(请确保启用JS)</b><br><br>
+            </b>
+
+  </div>
+    </div>
+
+    <div id="tab2" class="hidden">
+              <h1>record</h1>
+
+            <b>2025.6.24 9:00
+                2077.2m 0.08% 73.146m/h 1.2874m/h^2<br>
+2025.7.1 12:00
+33431.0m
+6.69分钟高铁不停
+1.28%
+292.558m/h或81.266mm/s
+1.2718m/h²或0.0981μm/s² (算法有误，优化算法后6月底7月初可达到0.1μm/s²)
+
+ <br>
+                (广州范围是北回归线以北50km到北回归线以南100km，所以要南移到100000m才算出广州了)
+               
+               <br>
+
+            
+               
+<h2> 直射点参考：</h2><br>
+              <p style="color:#FF0000">0m广州融创文旅城</p>
+              <p style="color:#FF3300">4000m 白云机场</p>
+              <p style="color:#FF6600">6300m 广州北站</p>
+              <p style="color:#FF9900">22500m 白云湖公园</p>
+              <p style="color:#FFCC00">30000m 广州站</p>
+              <p style="color:#FFFF00">50000m 广州南站/东莞</p><br>
+              <p style="color:#CCFF00">97000m 中山北站/深圳</p><br>
+              <p style="color:#99FF00">115000m 珠海北站</p><br>
+              <p style="color:#66FF00">130000m 石景山电视塔</p><br>
+              <p style="color:#33FF00">150000m 长隆海洋公园</p><br>
+              <p style="color:#00FF00">180000m 阳江站</p><br>
+              <p style="color:#00FF33">200000m 茂名站</p><br>
+              <p style="color:#00FF66">250000m 湛江站</p><br>
+              <p style="color:#00FF99">280000m 雷州站</p><br>
+              <p style="color:#00FFCC">340000m 徐闻站</p><br>
+              <p style="color:#00FFFF">380000m 海口站</p><br>
+              <p style="color:#00CCFF">430000m 儋州站</p><br>
+              <p style="color:#0099FF">580000m 三亚旅游区</p><br>
+              <p style="color:#0066FF">800000m 西沙群岛</p><br>
+              <p style="color:#0033FF">1500000m 南沙群岛</p><br>
+              <p style="color:#0000FF">2160000m 曾母暗沙</p><br>
+
+      </div>
+ <div id="tab3" class="hidden">
+
+ 
+<div id="sunlight"></div>
+
+
+   <div id="earth">
+        <div id="equator" title="赤道"></div>
+        <div id="tropic-cancer" title="北回归线"></div>
+        <div id="tropic-capricorn" title="南回归线"></div>
+        <div id="sunlight"></div>
+
+    </div>
+
+
+
+<div>（上图仅显示回归线以内）</div>
+
+
+<div>
+	 
+	  <button onclick="importSave()">计算大致直射点</button>
+	 
+	 </div>
+
+	 <div>
+	 
+	  <b class="special" id="game"></b>
+	 
+	 </div>
+
+
+
+ </div>
+
+
+       <div id="tab4" class="hidden">
+
+
+        <a target="_blank" href="https://www.timeanddate.com/worldclock/sunearth.html">准确的太阳直射点</a>
+<br>
+
+        <a target="_blank" href="https://ogimet.com/cgi-bin/gsynres?lang=en&ord=REV&ndays=30&ano=2025&mes=07&day=01&hora=12&ind=57516">ogimet查历史天气</a>
+        <br>
+        <a target="_blank" href="https://www.timeanddate.com/sun/china/chongqing">重庆日出日落</a>
+
+
+
+       </div>
+
+<script src="main.js"></script>
+
+    
+</body>
+
+</html>

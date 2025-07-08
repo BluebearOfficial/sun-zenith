@@ -14,7 +14,6 @@
 
 
 
-
 <body>
  <div class="donghua">
 
@@ -28,9 +27,10 @@ sun zenith
     <div class="fornews" id="news">Not-Rolling News</div>
 
  <button onclick="t1()" class="tabButton">直射点</button>
-        <button onclick="t2()" class="tabButton">记录与参考</button>
-        <button onclick="t3()" class="tabButton">示意图</button>
-        <button onclick="t4()" class="tabButton">网站</button>
+        <button onclick="t2()" class="tabButton">次重要数据</button>
+        <button onclick="t3()" class="tabButton">记录与参考</button>
+        <button onclick="t4()" class="tabButton">示意图</button>
+        <button onclick="t5()" class="tabButton">网站</button>
     <div id="tab1" class="box">
         <div class="box2">
             <br>
@@ -38,12 +38,13 @@ sun zenith
              <h3>目前太阳直射点位置大约在</h3>
             <b class="onlyblack" id="realzen">正在计算…(请确保启用JS)</b><br><br>
 
-            <h3>目前太阳直射点已经南移米数为</h3>
+            <h3>目前太阳直射点已经南移米数为 （需要达到150万米才能快速恢复高纬度地区的冷却能力）</h3>
             <b class="colorful" id="zenith">正在计算…(请确保启用JS)</b><br><br>
 
             <p>相当于南移了</p>
             <b class="aswellas" id="comparison">正在计算…(请确保启用JS)</b><br><br>
 
+          
           
              <h3>占北回归线到赤道百分比为</h3>
             <b class="onlyblack" id="percent">正在计算…(请确保启用JS)</b><br><br>
@@ -51,14 +52,34 @@ sun zenith
              <h3>当前太阳直射点南移速度为</h3>
             <b class="onlyblack" id="speed">正在计算…(请确保启用JS)</b><br><br>
                
-             <h3>当前太阳直射点南移加速度为</h3>
-            <b class="onlyblack" id="acceleration">正在计算…(请确保启用JS)</b><br><br>
-            </b>
+          
 
   </div>
     </div>
 
-    <div id="tab2" class="hidden">
+
+<div id="tab2" class="hidden">
+
+  <h3>目前节气为</h3>
+            <b class="colorful" id="solartermnow">正在计算…(请确保启用JS)</b><br><br>  
+
+            <h3>目前太阳直射点对应的节气和日期为</h3>
+            <b class="colorful" id="solartermzen">正在计算…(请确保启用JS)</b><br><br>
+
+            
+            <h3>目前常年日均温对应的节气和日期为</h3>
+            <b class="colorful" id="solartermtemp">正在计算…(请确保启用JS)</b><br><br>
+
+               <h3>当前太阳直射点南移加速度为</h3>
+            <b class="onlyblack" id="acceleration">正在计算…(请确保启用JS)</b><br><br>
+            </b>
+
+
+
+    </div>
+
+
+    <div id="tab3" class="hidden">
               <h1>record</h1>
 
             <b>2025.6.24 9:00
@@ -101,7 +122,7 @@ sun zenith
               <p style="color:#0000FF">2160000m 曾母暗沙</p><br>
 
       </div>
- <div id="tab3" class="hidden">
+ <div id="tab4" class="hidden">
 
  
 <div id="sunlight"></div>
@@ -114,8 +135,6 @@ sun zenith
         <div id="sunlight"></div>
 
     </div>
-
-
 
 <div>（上图仅显示回归线以内）</div>
 
@@ -137,7 +156,7 @@ sun zenith
  </div>
 
 
-       <div id="tab4" class="hidden">
+       <div id="tab5" class="hidden">
 
 
         <a target="_blank" href="https://www.timeanddate.com/worldclock/sunearth.html">准确的太阳直射点</a>

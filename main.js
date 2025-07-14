@@ -1,4 +1,5 @@
- let newyear = 1735660800000;//暂时取元旦节
+
+        let newyear = 1735660800000;//暂时取元旦节
         function update(){
             let a = new Date();
             let date = ((a.getTime() - newyear) / 86400000)+1;
@@ -98,29 +99,29 @@
           }  
 
 function changeColornow(){
-          if(dayofyearq>=157&&dayofyearq<=187)
+          if(dayofyearq>=158&&dayofyearq<=188)//突然发现dayofyearq判定条件应该全部+1
         { solartermnow.style.color= "#FF5500";}
-        else if((dayofyearq>=142&&dayofyearq<=157)||(dayofyearq>=187&&dayofyearq<=202))
+        else if((dayofyearq>=143&&dayofyearq<=158)||(dayofyearq>=188&&dayofyearq<=203))
 
 
         {solartermnow.style.color="#FFAA00";}
-         else if((dayofyearq>=127&&dayofyearq<=142)||(dayofyearq>=202&&dayofyearq<=217))
+         else if((dayofyearq>=128&&dayofyearq<=143)||(dayofyearq>=203&&dayofyearq<=218))
         {solartermnow.style.color="#FFFF00";}
-         else if((dayofyearq>=112&&dayofyearq<=127)||(dayofyearq>=217&&dayofyearq<=232))
+         else if((dayofyearq>=113&&dayofyearq<=128)||(dayofyearq>=218&&dayofyearq<=233))
         {solartermnow.style.color="#AAFF00";}
-         else if((dayofyearq>=97&&dayofyearq<=112)||(dayofyearq>=232&&dayofyearq<=247))
+         else if((dayofyearq>=98&&dayofyearq<=113)||(dayofyearq>=233&&dayofyearq<=248))
         {solartermnow.style.color="#55FF00";}
-         else if((dayofyearq>=82&&dayofyearq<=97)||(dayofyearq>=247&&dayofyearq<=262))
+         else if((dayofyearq>=83&&dayofyearq<=98)||(dayofyearq>=248&&dayofyearq<=263))
         {solartermnow.style.color="#00FF00";}
-         else if((dayofyearq>=67&&dayofyearq<=82)||(dayofyearq>=262&&dayofyearq<=277))
+         else if((dayofyearq>=68&&dayofyearq<=83)||(dayofyearq>=263&&dayofyearq<=278))
         {solartermnow.style.color="#00FF55";}
-         else if((dayofyearq>=52&&dayofyearq<=67)||(dayofyearq>=277&&dayofyearq<=292))
+         else if((dayofyearq>=53&&dayofyearq<=68)||(dayofyearq>=278&&dayofyearq<=293))
         {solartermnow.style.color="#00FFAA";}
-         else if((dayofyearq>=37&&dayofyearq<=52)||(dayofyearq>=292&&dayofyearq<=307))
+         else if((dayofyearq>=38&&dayofyearq<=53)||(dayofyearq>=293&&dayofyearq<=308))
         {solartermnow.style.color="#00FFFF";}
-         else if((dayofyearq>=22&&dayofyearq<=37)||(dayofyearq>=307&&dayofyearq<=322))
+         else if((dayofyearq>=23&&dayofyearq<=38)||(dayofyearq>=308&&dayofyearq<=323))
         {solartermnow.style.color="#00AAFF";}
-         else if((dayofyearq>=7&&dayofyearq<=22)||(dayofyearq>=322&&dayofyearq<=337))
+         else if((dayofyearq>=8&&dayofyearq<=23)||(dayofyearq>=323&&dayofyearq<=338))
         {solartermnow.style.color="#0055FF";}
      
          else 
@@ -129,29 +130,29 @@ function changeColornow(){
 
           function changeColorzen(){
 
-  if(dayofyearq>=157&&dayofyearq<=187)
+  if(dayofyearq>=158&&dayofyearq<=188)
         { solartermzen.style.color= "#FF5500";}
-        else if((dayofyearq>=142&&dayofyearq<=157)||(dayofyearq>=187&&dayofyearq<=202))
+        else if((dayofyearq>=143&&dayofyearq<=158)||(dayofyearq>=188&&dayofyearq<=203))
 
 
         {solartermzen.style.color="#FFAA00";}
-         else if((dayofyearq>=127&&dayofyearq<=142)||(dayofyearq>=202&&dayofyearq<=217))
+         else if((dayofyearq>=128&&dayofyearq<=143)||(dayofyearq>=203&&dayofyearq<=218))
         {solartermzen.style.color="#FFFF00";}
-         else if((dayofyearq>=112&&dayofyearq<=127)||(dayofyearq>=217&&dayofyearq<=232))
+         else if((dayofyearq>=113&&dayofyearq<=128)||(dayofyearq>=218&&dayofyearq<=233))
         {solartermzen.style.color="#AAFF00";}
-         else if((dayofyearq>=97&&dayofyearq<=112)||(dayofyearq>=232&&dayofyearq<=247))
+         else if((dayofyearq>=98&&dayofyearq<=113)||(dayofyearq>=233&&dayofyearq<=248))
         {solartermzen.style.color="#55FF00";}
-         else if((dayofyearq>=82&&dayofyearq<=97)||(dayofyearq>=247&&dayofyearq<=262))
+         else if((dayofyearq>=83&&dayofyearq<=98)||(dayofyearq>=248&&dayofyearq<=263))
         {solartermzen.style.color="#00FF00";}
-         else if((dayofyearq>=67&&dayofyearq<=82)||(dayofyearq>=262&&dayofyearq<=277))
+         else if((dayofyearq>=68&&dayofyearq<=83)||(dayofyearq>=263&&dayofyearq<=278))
         {solartermzen.style.color="#00FF55";}
-         else if((dayofyearq>=52&&dayofyearq<=67)||(dayofyearq>=277&&dayofyearq<=292))
+         else if((dayofyearq>=53&&dayofyearq<=68)||(dayofyearq>=278&&dayofyearq<=293))
         {solartermzen.style.color="#00FFAA";}
-         else if((dayofyearq>=37&&dayofyearq<=52)||(dayofyearq>=292&&dayofyearq<=307))
+         else if((dayofyearq>=38&&dayofyearq<=53)||(dayofyearq>=293&&dayofyearq<=308))
         {solartermzen.style.color="#00FFFF";}
-         else if((dayofyearq>=22&&dayofyearq<=37)||(dayofyearq>=307&&dayofyearq<=322))
+         else if((dayofyearq>=23&&dayofyearq<=38)||(dayofyearq>=308&&dayofyearq<=323))
         {solartermzen.style.color="#00AAFF";}
-         else if((dayofyearq>=7&&dayofyearq<=22)||(dayofyearq>=322&&dayofyearq<=337))
+         else if((dayofyearq>=8&&dayofyearq<=23)||(dayofyearq>=323&&dayofyearq<=338))
         {solartermzen.style.color="#0055FF";}
      
          else 
@@ -162,42 +163,91 @@ function changeColornow(){
 
           function changeColortemp(){
 
- if(dayofyearq>=197&&dayofyearq<=227)//7下半对8上半
+ if(dayofyearq>=198&&dayofyearq<=228)//7下半对8上半
         { solartermtemp.style.color= "#FF5500";}
-        else if((dayofyearq>=181&&dayofyearq<=197)||(dayofyearq>=227&&dayofyearq<=243))//7上半对8下半
+        else if((dayofyearq>=182&&dayofyearq<=198)||(dayofyearq>=228&&dayofyearq<=244))//7上半对8下半
 
 
         {solartermtemp.style.color="#FFAA00";}
-         else if((dayofyearq>=166&&dayofyearq<=181)||(dayofyearq>=243&&dayofyearq<=250))//6下半对9第一周
+         else if((dayofyearq>=167&&dayofyearq<=182)||(dayofyearq>=244&&dayofyearq<=251))//6下半对9第一周
 
         {solartermtemp.style.color="#FFFF00";}
-         else if((dayofyearq>=150&&dayofyearq<=166)||(dayofyearq>=250&&dayofyearq<=258))//6上半对9第二周
+         else if((dayofyearq>=151&&dayofyearq<=167)||(dayofyearq>=251&&dayofyearq<=259))//6上半对9第二周
 
         {solartermtemp.style.color="#AAFF00";}
-         else if((dayofyearq>=135&&dayofyearq<=150)||(dayofyearq>=258&&dayofyearq<=265))//5下半对9第三周
+         else if((dayofyearq>=136&&dayofyearq<=151)||(dayofyearq>=259&&dayofyearq<=266))//5下半对9第三周
 
         {solartermtemp.style.color="#55FF00";}
-         else if((dayofyearq>=120&&dayofyearq<=135)||(dayofyearq>=265&&dayofyearq<=273))//5上半对9第四周
+         else if((dayofyearq>=121&&dayofyearq<=136)||(dayofyearq>=266&&dayofyearq<=274))//5上半对9第四周
 
         {solartermtemp.style.color="#00FF00";}
-         else if((dayofyearq>=105&&dayofyearq<=120)||(dayofyearq>=273&&dayofyearq<=288))//4下半对10上半
+         else if((dayofyearq>=106&&dayofyearq<=121)||(dayofyearq>=274&&dayofyearq<=289))//4下半对10上半
 
         {solartermtemp.style.color="#00FF55";}
-         else if((dayofyearq>=90&&dayofyearq<=105)||(dayofyearq>=288&&dayofyearq<=304))//4上半对10下半
+         else if((dayofyearq>=91&&dayofyearq<=106)||(dayofyearq>=289&&dayofyearq<=305))//4上半对10下半
 
         {solartermtemp.style.color="#00FFAA";}
-         else if((dayofyearq>=75&&dayofyearq<=90)||(dayofyearq>=304&&dayofyearq<=319))//3下半对11上半
+         else if((dayofyearq>=76&&dayofyearq<=91)||(dayofyearq>=305&&dayofyearq<=320))//3下半对11上半
 
         {solartermtemp.style.color="#00FFFF";}
-         else if((dayofyearq>=59&&dayofyearq<=75)||(dayofyearq>=319&&dayofyearq<=334))//3上半对11下半
+         else if((dayofyearq>=60&&dayofyearq<=76)||(dayofyearq>=320&&dayofyearq<=335))//3上半对11下半
 
         {solartermtemp.style.color="#00AAFF";}
-         else if((dayofyearq>=39&&dayofyearq<=59)||(dayofyearq>=334&&dayofyearq<=354))//2中下对12上中
+         else if((dayofyearq>=40&&dayofyearq<=60)||(dayofyearq>=335&&dayofyearq<=355))//2中下对12上中
 
         {solartermtemp.style.color="#0055FF";}
      
          else //最冷的12下到2上
         {solartermtemp.style.color="#0000FF";}
+
+
+
+
+          }
+
+         function changeColorseason(){
+if(dayofyearq<=38)//年初的冬季
+{
+    season.style.color="#00B0F0";
+
+}
+else if(dayofyearq<=87)//初春
+{
+  season.style.color="#92D050";
+
+}
+else if(dayofyearq<=118)//暮春
+{
+    season.style.color="#00B050";
+}
+else if(dayofyearq<=189)//初夏
+{
+   season.style.color="#FF0000";
+}
+else if(dayofyearq<=239)//盛夏
+{
+    season.style.color="#C00000";
+}
+else if(dayofyearq<=275)//暮夏
+{
+    season.style.color="#FF8000";
+
+}
+else if(dayofyearq<=315)//初秋
+{
+season.style.color="#FFFF00";
+
+}
+else if(dayofyearq<=345)//深秋
+{
+ season.style.color="#FFC000";
+}
+else//年底的冬季
+{season.style.color="#00B0F0";
+
+
+}
+
 
 
           }
@@ -209,6 +259,7 @@ changeColorzenith();
 changeColornow();
 changeColorzen();
 changeColortemp();
+changeColorseason();
 
           }
 
@@ -385,24 +436,24 @@ else if(dayofyearq<341.5)
 function calsolartermtemp(){
 
 
-if(dayofyearq>=182&&dayofyearq<=212)//7月对8月
+if(dayofyearq>=182&&dayofyearq<=213)//7月对8月
 
 {tempdate=212+Math.abs(dayofyearq-212);}
-else if(dayofyearq>=213&&dayofyearq<=243)//8月对7月
+else if(dayofyearq>=213&&dayofyearq<=244)//8月对7月
 {tempdate=212-Math.abs(dayofyearq-212);}
-else if(dayofyearq>=121&&dayofyearq<=181)//5和6月对9月
+else if(dayofyearq>=121&&dayofyearq<=182)//5和6月对9月
 {tempdate=243+(Math.abs(dayofyearq-182))*0.5;}
-else if(dayofyearq>=244&&dayofyearq<=273)//9月对5和6月
+else if(dayofyearq>=244&&dayofyearq<=274)//9月对5和6月
 {tempdate=182-(Math.abs(dayofyearq-244))*2;}
-else if(dayofyearq>=60&&dayofyearq<=120)//3和4月对10和11月
+else if(dayofyearq>=60&&dayofyearq<=121)//3和4月对10和11月
 {tempdate=274+Math.abs(dayofyearq-121);}
-else if(dayofyearq>=274&&dayofyearq<=334)//10和11月对3和4月
+else if(dayofyearq>=274&&dayofyearq<=335)//10和11月对3和4月
 {tempdate=121-Math.abs(dayofyearq-274);}
 else if(dayofyearq>=335)//1.15为冷中心，（年底）前冬对后冬
 {tempdate=16+15+Math.abs(dayofyearq-365);}
-else if(dayofyearq<=15)//1.15为冷中心，（年初）前冬对后冬
+else if(dayofyearq<=16)//1.15为冷中心，（年初）前冬对后冬
 {tempdate=15+Math.abs(dayofyearq-15);}
-else if(dayofyearq>=16&&dayofyearq<=30)//1.15为冷中心，后冬对(年初)前冬
+else if(dayofyearq>=16&&dayofyearq<=31)//1.15为冷中心，后冬对(年初)前冬
 {tempdate=16-Math.abs(dayofyearq-15);}
 else//只剩下2月份的后冬对年底的前冬对应的31~59这个分支了！
 {tempdate=365-Math.abs(dayofyearq-30);}
@@ -416,58 +467,58 @@ else//只剩下2月份的后冬对年底的前冬对应的31~59这个分支了�
 tempmonth=parseInt(tempdate/30)+1;//姑且把每个月都当作30天，忽略大月小月
 tempday=parseInt(tempdate%30);
 
- if(dayofyearq>=39&&dayofyearq<=55)//2.8~2.23
+ if(dayofyearq>=40&&dayofyearq<=56)//2.8~2.23
 
         { 
         solartermtemp="大雪，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=55&&dayofyearq<=67)//2.24~3.7
+        else if(dayofyearq>=56&&dayofyearq<=68)//2.24~3.7
         {solartermtemp="小雪，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=67&&dayofyearq<=82)//3.8~3.23
+        else if(dayofyearq>=68&&dayofyearq<=83)//3.8~3.23
         {solartermtemp="立冬，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=82&&dayofyearq<=98)//3.24~4.7
+        else if(dayofyearq>=83&&dayofyearq<=99)//3.24~4.7
         {solartermtemp="霜降，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=98&&dayofyearq<=114)//4.8~4.23
+        else if(dayofyearq>=99&&dayofyearq<=115)//4.8~4.23
 
         {solartermtemp="寒露，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=114&&dayofyearq<=136)//4.24~5.15
+        else if(dayofyearq>=115&&dayofyearq<=137)//4.24~5.15
         {solartermtemp="秋分，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=136&&dayofyearq<=167)//5.16~6.15
+        else if(dayofyearq>=137&&dayofyearq<=168)//5.16~6.15
         {solartermtemp="白露，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=167&&dayofyearq<=191)//6.16~7.9
+        else if(dayofyearq>=168&&dayofyearq<=192)//6.16~7.9
         {solartermtemp="处暑，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=191&&dayofyearq<=206)//7.10~7.24
+        else if(dayofyearq>=192&&dayofyearq<=207)//7.10~7.24
         {solartermtemp="立秋，"+tempmonth+"月"+tempday+"日";}
-        else if(dayofyearq>=206&&dayofyearq<=219)//7.25~8.6
+        else if(dayofyearq>=207&&dayofyearq<=220)//7.25~8.6
 
 {solartermtemp="大暑，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=219&&dayofyearq<=235)//8.7~8.22
+else if(dayofyearq>=220&&dayofyearq<=236)//8.7~8.22
 {solartermtemp="小暑，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=235&&dayofyearq<=247)//8.23~9.3
+else if(dayofyearq>=236&&dayofyearq<=248)//8.23~9.3
 {solartermtemp="夏至，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=247&&dayofyearq<=256)//9.4~9.12
+else if(dayofyearq>=248&&dayofyearq<=257)//9.4~9.12
 {solartermtemp="芒种，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=256&&dayofyearq<=264)//9.13~9.20
+else if(dayofyearq>=257&&dayofyearq<=265)//9.13~9.20
 {solartermtemp="小满，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=264&&dayofyearq<=272)//9.21~9.28
+else if(dayofyearq>=265&&dayofyearq<=273)//9.21~9.28
 
 {solartermtemp="立夏，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=272&&dayofyearq<=281)//9.29~10.7
+else if(dayofyearq>=273&&dayofyearq<=282)//9.29~10.7
 {solartermtemp="谷雨，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=281&&dayofyearq<=297)//10.8~10.23
+else if(dayofyearq>=282&&dayofyearq<=298)//10.8~10.23
 
 {solartermtemp="清明，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=297&&dayofyearq<=312)//10.24~11.7
+else if(dayofyearq>=298&&dayofyearq<=313)//10.24~11.7
 {solartermtemp="春分，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=312&&dayofyearq<=328)//11.8~11.23
+else if(dayofyearq>=313&&dayofyearq<=329)//11.8~11.23
 {solartermtemp="惊蛰，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=328&&dayofyearq<=342)//11.24~12.7
+else if(dayofyearq>=329&&dayofyearq<=343)//11.24~12.7
 {solartermtemp="雨水，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=342&&dayofyearq<=358)//12.8~12.23
+else if(dayofyearq>=343&&dayofyearq<=359)//12.8~12.23
 {solartermtemp="立春，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=358||dayofyearq<=8)//12.24~12.31和1.1~1.7
+else if(dayofyearq>=359||dayofyearq<=9)//12.24~12.31和1.1~1.7
 
 {solartermtemp="大寒，"+tempmonth+"月"+tempday+"日";}
-else if(dayofyearq>=8&&dayofyearq<=23)//1.8~1.23
+else if(dayofyearq>=9&&dayofyearq<=24)//1.8~1.23
 {solartermtemp="小寒，"+tempmonth+"月"+tempday+"日";}
 
        
@@ -478,7 +529,43 @@ else if(dayofyearq>=8&&dayofyearq<=23)//1.8~1.23
 
 }
 
+function calseason(){
 
+if(dayofyearq<=38){
+    season="冬季的第"+parseInt(dayofyearq+21)+"/58天";
+
+}
+else if(dayofyearq<=87){
+    season="初春的第"+parseInt(dayofyearq-37)+"/49天";
+
+}
+else if(dayofyearq<=118){
+    season="暮春的第"+parseInt(dayofyearq-86)+"/32天";
+
+
+
+
+}
+else if(dayofyearq<=189){
+    season="初夏的第"+parseInt(dayofyearq-117)+"/70天";
+}
+else if(dayofyearq<=239){
+    season="盛夏的第"+parseInt(dayofyearq-188)+"/50天";
+}
+else if(dayofyearq<=275){
+    season="暮夏的第"+parseInt(dayofyearq-238)+"/36天";
+
+}
+else if(dayofyearq<=315){
+season="初秋的第"+parseInt(dayofyearq-274)+"/40天";}
+else if(dayofyearq<=345){
+    season="深秋的第"+parseInt(dayofyearq-314)+"/30天";
+}
+else{season="冬季的第"+parseInt(dayofyearq-344)+"/58天";}
+
+
+
+}
 
           function calsolarterm(){
 
@@ -486,9 +573,11 @@ else if(dayofyearq>=8&&dayofyearq<=23)//1.8~1.23
             calsolartermnow();
             calsolartermzen();
             calsolartermtemp();
+            calseason();
  document.getElementById('solartermnow').innerHTML = solartermnow;
  document.getElementById('solartermzen').innerHTML = solartermzen;
  document.getElementById('solartermtemp').innerHTML = solartermtemp;
+ document.getElementById('season').innerHTML = season;
 
 
 
@@ -551,7 +640,7 @@ function t(a){
 //const NEWSLENGTH=20
 function updatenews(){
     let news=[
-        ["已经立秋了，但是秋老虎仍然恼火",movement>800000&&movement<2000000],//["新闻内容",显示条件]
+        ["已经立秋了，但是秋老虎仍然恼火",movement>800000&&movement<2000000&&dayofyearq>182],//["新闻内容",显示条件]
 
         ["一场秋雨一场寒，十场秋雨可DC",true],
         ["汗流浃背了吧，沙坪坝的你",movement>0&&movement<2603704],
@@ -561,7 +650,7 @@ function updatenews(){
         ["直射点南移的hopeful时间段有接近一半都是酷暑的，然而直射点北移的hopeless时间段却有接近三分之一是寒冷优秀DC的",true],
         ["以前以为2022烫夏是意外，现在才发现2023凉夏才是意外",true],
         ["越热，越容易得热射病；只有足够的冷，才能体验更优秀的捂！",true],
-        ["还有"+(2603.704-movement/1000).toFixed(0)+"km才能到达赤道",movement>0&&movement<2603704],
+        ["还有"+(2603.704-movement/1000).toFixed(0)+"km才能到达赤道",movement>0&&movement<2603704&&dayofyearq>171],
         ["一到了4月就容易入夏，先热半年再说",true],
         ["还没有入伏呢，你就热得受不了了吗？",movement>0&&movement<270000],
         ["真想日地距离立马变成2天文单位",true],
@@ -570,11 +659,82 @@ function updatenews(){
         ["2013年和2022年都是加速变热的转折点，活下去，气象爱好者，witness 21世纪无尽的热纪录！",true],
         ["大陆高压持续时间短，为高温发展阶段，高温强度弱、相对湿度大、气温日较差大；副热带高压持续时间长，为高温强盛阶段，高温极端性强，干热特征显著、夜间升温明显。",true],
         ["但凉爽的9月这一情况在2021年那个热9月之后，又被按下了暂停键",true],
-        ["华西秋雨，我爱你啊，一天一场，没烦恼啊。告别emo，小情绪啊，下完入秋，心情好啊！",movement>1200000],
-        ["dew超过20就很闷热了，超过24极为闷热，接近28则命是空调给的了",true]
+        ["华西秋雨，我爱你啊，一天一场，没烦恼啊。告别emo，小情绪啊，下完入秋，心情好啊！",movement>1200000&&dayofyearq>233],
+        ["dew超过20就很闷热了，超过24极为闷热，接近28则命是空调给的了",true],//第20条
+
+        ["1上常年旬均温8 极高16.9 极高日均温13.2",dayofyearq<11],
+        ["1中常年旬均温8 极高18.7 极高日均温14.9",dayofyearq>11&&dayofyearq<21],
+        ["1下常年旬均温8.1 极高18.8 极高日均温13.4",dayofyearq>21&&dayofyearq<32],
+        ["2上常年旬均温9.4 极高21.5 极高日均温16.1",dayofyearq>32&&dayofyearq<42],
+        ["2中常年旬均温10.4 极高24.3 极高日均温18.9",dayofyearq>42&&dayofyearq<52],
+        ["2下常年旬均温11.5 极高27.6 极高日均温20.1",dayofyearq>52&&dayofyearq<60],
+        ["3上常年旬均温13 极高30 极高日均温22.9",dayofyearq>60&&dayofyearq<70],
+        ["3中常年旬均温14.6 极高33.3 极高日均温26.1",dayofyearq>70&&dayofyearq<80],
+        ["3下常年旬均温15.7 极高34.3 极高日均温26.6",dayofyearq>80&&dayofyearq<91],
+        ["4上常年旬均温17.7 极高36.5 极高日均温28.5",dayofyearq>91&&dayofyearq<101],
+        ["4中常年旬均温19.2 极高36.4 极高日均温29.6",dayofyearq>101&&dayofyearq<111],
+        ["4下常年旬均温20.8 极高36.4 极高日均温30.2",dayofyearq>111&&dayofyearq<121],
+        ["5上常年旬均温22.3 极高38.9 极高日均温32.3",dayofyearq>121&&dayofyearq<131],
+        ["5中常年旬均温22.6 极高37.9 极高日均温30.9",dayofyearq>131&&dayofyearq<141],
+        ["5下常年旬均温22.9 极高38.9 极高日均温31.9",dayofyearq>141&&dayofyearq<152],
+        ["6上常年旬均温24.4 极高37.9 极高日均温31.7",dayofyearq>152&&dayofyearq<162],
+        ["6中常年旬均温25.6 极高39.8 极高日均温34.1",dayofyearq>162&&dayofyearq<172],
+        ["6下常年旬均温26.4 极高39.1 极高日均温33.8",dayofyearq>172&&dayofyearq<182],
+        ["7上常年旬均温27.6 极高40 极高日均温35.8",dayofyearq>182&&dayofyearq<192],
+        ["7中常年旬均温28.8 极高41.3 极高日均温37",dayofyearq>192&&dayofyearq<202],
+        ["7下常年旬均温30.2 极高42 极高日均温36.5",dayofyearq>202&&dayofyearq<213],
+        ["8上常年旬均温29.8 极高41.7 极高日均温36.9",dayofyearq>213&&dayofyearq<223],
+        ["8中常年旬均温29.2 极高43.7 极高日均温38.9",dayofyearq>223&&dayofyearq<233],
+        ["8下常年旬均温28 极高43.3 极高日均温38.5",dayofyearq>233&&dayofyearq<244],
+        ["9上常年旬均温25.9 极高42 极高日均温37",dayofyearq>244&&dayofyearq<254],
+        ["9中常年旬均温24.3 极高39.8 极高日均温35",dayofyearq>254&&dayofyearq<264],
+        ["9下常年旬均温22.7 极高38.1 极高日均温33.3",dayofyearq>264&&dayofyearq<274],
+        ["10上常年旬均温20.6 极高37.4 极高日均温32",dayofyearq>274&&dayofyearq<284],
+        ["10中常年旬均温18.7 极高32.7 极高日均温25.7",dayofyearq>284&&dayofyearq<294],
+        ["10下常年旬均温17.5 极高30.1 极高日均温24.8",dayofyearq>294&&dayofyearq<305],
+        ["11上常年旬均温16.4 极高29.6 极高日均温22.2",dayofyearq>305&&dayofyearq<315],
+        ["11中常年旬均温14.4 极高26.7 极高日均温21.8",dayofyearq>315&&dayofyearq<325],
+        ["11下常年旬均温12.4 极高24.1 极高日均温19.8",dayofyearq>325&&dayofyearq<335],
+        ["12上常年旬均温10.9 极高21.5 极高日均温16.9",dayofyearq>335&&dayofyearq<345],
+        ["12中常年旬均温9.3 极高19.1 极高日均温16.1",dayofyearq>345&&dayofyearq<355],
+        ["12下常年旬均温8.4 极高16.7 极高日均温13.1",dayofyearq>355&&dayofyearq<365],//第56条
+["连续预报3天高温38+，才有可能刷高温假",movement>0&&movement<2603704&&dayofyearq>171],
+["忘不了2024年的极端烫9月，月均温高达32℃，竟然超过了7月份",true],
+["一定要珍惜华西秋雨，不要不喜欢阴雨天气,宁可连阴雨无日照，也别光照增温",true],
+["2018年9月初高温假后立马入秋，前冬也比较冷，可谓是典范了",true]//第60条
+["日高温35+的天气就是难闻的，居然有人喜欢",true],
+["假如1均-10,4均10均刚刚零上，7均8均15左右，那我也会喜欢夏天",true],
+["我真的喜欢最热月也冷的冰原苔原气候",true],
+["以前的热夏挑战还没有现在的凉夏挑战热，真是令人忍俊不禁",true],
+["我最恨副热带高压了，但是沙坪坝的高温不依靠位势，夏天稍微放晴一点就必猛暑",true],
+["所谓南刮，就是处暑以前，不仅太阳直射点南移后几乎没有降温效果，直射点本身的移动也非常慢，令人着急",true],
+["秋老虎真是太可恶了，暴热了好几个月，直射点终于南移了很多，但是气温却还是居高不下",dayofyearq>233&&dayofyearq<270],
+["天生我站必有霘，紫波三二七零零",true],
+["01~25标，居然6.28入盛夏，令人发指！",true],
+["以前盼拉尼娜，误以为可以冷冬；现在盼厄尔尼诺，因为烫夏更要命",true],//第70条
+
+ ["（deepseek）当850hPa温度超过20℃，地表高温就进入危险区间",true],
+ ["（deepseek）夜温30+比昼温40+更可怕，因为连喘息的机会都没有",true],
+   ["（deepseek）当EC和GFS同时预报有强冷空气南下，那就是蓝熊的春节",dayofyearq>300],
+    ["（deepseek）重庆的夏天：早上8点30℃，下午4点42℃，晚上10点38℃",movement>0&&movement<2603704],
+   ["（deepseek）当预报的850hPa温度跌破0℃，冬日DC就稳了",dayofyearq<90||dayofyearq>300],
+ ["（deepseek）重庆夏季的三大法宝：高温、高湿、低风速",movement>0&&movement<2603704],
+   ["（deepseek）当EC把降温过程调强又调弱再调强，就是考验心脏的时候了",dayofyearq>300],
+    ["（deepseek）重庆的天气哲学：没有最热，只有更热；没有最短，只有更短（指冬季）",true],
+    ["（deepseek）当看到850hPa温度预报出现24℃+，就知道地表要突破40℃了",dayofyearq>150&&dayofyearq<250],
+ ["（deepseek）最令人绝望的预报用语：'副热带高压持续偏强偏西'",true]//第80条
+
+
+
+
+
+
+
+
+
             ]
-  let num=Math.floor(Math.random()*20);
-       if(news[num][1])
+  let num=Math.floor(Math.random()*80);
+       if(news[num][1])//["新闻内容",显示条件]的实现
         document.getElementById("news").innerHTML=news[num][0];
     else
         updatenews()
@@ -594,5 +754,3 @@ game=(Math.sin(0.01720279*Save+4.884417))*1406/60;
    document.getElementById('game').innerHTML = realgame;
        
 		}
-
-

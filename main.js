@@ -22,6 +22,14 @@
           let realzen = degree + ' 度 ' + minute + ' 分 ' + second + ' 秒 '  ;
           let zen=(111000*(1406/60-latitude)).toFixed(1)+"m";
           let percent= ((111000*(1406/60-latitude))/2603704*100).toFixed(2)+"%";
+
+
+if(dayofyearq<171||dayofyearq>356){zen="对不起，现在直射点正在北移，请好好享受冬春时光";
+    percent="对不起，现在直射点正在北移，请好好享受冬春时光";
+    speed="对不起，现在直射点正在北移，请好好享受冬春时光";
+    acceleration="对不起，现在直射点正在北移，请好好享受冬春时光";
+}
+
          document.getElementById('zenith').innerHTML = zen;
            document.getElementById('realzen').innerHTML = realzen;
           document.getElementById('percent').innerHTML = percent;
@@ -33,6 +41,8 @@
                 
             
             }
+
+
 
                let b = new Date();//弄时间戳的全局变量
            let day = ((b.getTime() - newyear) / 86400000)+1;
@@ -276,22 +286,25 @@ changeColorseason();
 
 
             
-        if(movement<5000)
+        if(dayofyearq>171&&dayofyearq<356&&movement<5000)
         { 
         comparison="人步行"+(movement/80).toFixed(2)+"分钟";}
-        else if(movement<20000)
+        else if(dayofyearq>171&&dayofyearq<356&&movement<20000)
         {comparison=(movement/1120).toFixed(2)+"座重庆长江大桥";}
-        else if(movement<233000)
+        else if(dayofyearq>171&&dayofyearq<356&&movement<233000)
 
         {comparison=(movement/5000).toFixed(2)+"分钟高铁不停";}
-        else if(movement<1000000)
+        else if(dayofyearq>171&&dayofyearq<356&&movement<1000000)
 
         { comparison=(movement/67090).toFixed(2)+"个重庆三号线长度";}
-        else if(movement<1700000)
+        else if(dayofyearq>171&&dayofyearq<356&&movement<1700000)
         {comparison=(movement/297000).toFixed(2)+"倍南京到上海路程，差不多立秋了吧";}
-        else
+        else if(dayofyearq>171&&dayofyearq<356)
         {
             comparison=(movement/1500000).toFixed(2)+"倍重庆到常州路程，差不多优秀了！";
+        }
+        else{
+            comparison="对不起，现在直射点正在北移，请好好享受冬春时光";
         }
 
 
